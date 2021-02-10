@@ -2,13 +2,13 @@
 
 namespace FactoryMethod.ConcreteProduct
 {
-    public class CartaoBLack : CartaoCredito
+    public class CartaoBlack : CartaoCredito
     {
         private readonly string _tipoCartao;
         private int _limiteCredito;
         private int _cobrancaAnual;
 
-        public CartaoBLack(int limiteCredito, int cobrancaAnual)
+        public CartaoBlack(int limiteCredito, int cobrancaAnual)
         {
             this._tipoCartao = "Black";
             this._limiteCredito = limiteCredito;
